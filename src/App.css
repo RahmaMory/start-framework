@@ -1,0 +1,50 @@
+nav{
+    background-color: #2C3E50;
+    color: white !important;
+}
+img{
+    width: 250px;
+}
+.header,.about {
+  background-color: #1ABC9C;
+  height: calc(100vh - 72px);
+}
+
+.line{
+    width: 80px;
+    height: 4px;
+    background-color: white;
+}
+
+.footer{
+   background-color: #2C3E50;
+    color: white !important;
+    padding: 50px;
+}
+
+.copyRight{
+    background-color: #1A252F;
+}
+.hider {
+  background-color: #1ABC9C;
+  opacity: 0;
+  transition: 0.5s opacity;
+}
+
+.image-container:hover .hider {
+  opacity: 0.8;
+}
+input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.form-control:focus ~ label,
+.form-control:not(:placeholder-shown) ~ label {
+  color: #1ABC9C; 
+}
+.btn-success,.btn-success:hover{
+    background-color: #1ABC9C;
+    
+}
+
